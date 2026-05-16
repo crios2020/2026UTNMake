@@ -1,0 +1,50 @@
+Temas de la charla Make
+
+(Software necesario Google Chrome y Edge)
+
+- Presentación
+- Opa Versión Capibara 	(No se uso IA en el proceso de desarrollo) (Romi Participo en el diseño)
+- Opa Versión Frida		(Se uso IA en el proceso de desarrollo) - https://crios2020.github.io/
+- FrontEnd Chat OpenIA Groq - https://crios2020.github.io/client/
+- Proyecto de próximo cliente usando control total de voz para habla y escucha
+- Automatización de flujos de trabajo y Agentes de IA
+	- Que es un flujo de trabajo
+	- Que es un agente de IA
+	- Productos de automatización (N8N - Make - Zapier)
+	- Desarrollo de un flujo con Make 
+		(Recibir datos en un hook - guardarlo en un google sheet - enviarlos por mail)
+
+
+Flujo de Trabajo:
+Es una secuencia de pasos automatizados que conectan aplicaciones, servicios o procesos 
+	para ejecutar tareas sin intervención manual.
+En n8n, el flujo se construye visualmente mediante “nodos” conectados entre sí.
+
+Agente de IA
+Es un sistema que puede percibir información, tomar decisiones y ejecutar acciones automáticamente 
+	para cumplir un objetivo.
+A diferencia de un chatbot simple que solo responde preguntas, un agente puede:
+- analizar contexto
+- planificar pasos
+- usar herramientas
+- interactuar con APIs
+- recordar información
+- corregirse
+- ejecutar tareas completas
+
+Idea básica, Un agente funciona más o menos así:
+Objetivo → Analizar → Decidir → Actuar → Evaluar resultado
+
+Trabajo Con Make
+
+- Iniciar sessión con cuenta lawlercarlospatricio
+- Crear Escenario
+- Agregar Webhook (Es importante poner la opción determinar estructura de datos para que copie la esctructura de datos)
+- Agregar nodo Google Sheet (Ad Row)
+- Agregar Validación
+- Agregar nodo Gmail
+- Por ahora solo run once, previo a guardar el escenario
+
+Nota Importante, 	run module solo hace correr ese modulo!
+					run escenario hace correr todo el escenario!
+
