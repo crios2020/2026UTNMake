@@ -5,6 +5,7 @@ Temas de la charla Make
 - Presentación
 - Opa Versión Capibara 	(No se uso IA en el proceso de desarrollo) (Romi Participo en el diseño)
 - Opa Versión Frida		(Se uso IA en el proceso de desarrollo) - https://crios2020.github.io/
+- Hugginface como proveedor de modelos de IA https://huggingface.co/
 - FrontEnd Chat OpenIA Groq - https://crios2020.github.io/client/
 - Proyecto de próximo cliente usando control total de voz para habla y escucha
 - Automatización de flujos de trabajo y Agentes de IA
